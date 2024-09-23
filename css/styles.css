@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
-
 * {
     margin: 0px;
     padding: 0px;
@@ -20,8 +19,8 @@ body {
     display: flex;
     width: 100%;
     justify-content: center;
-
 }
+
 .navbar {
     margin-bottom: -3rem;
     width: 75%;
@@ -46,7 +45,7 @@ body {
 .nav-link::before {  
     transform: scaleX(0);
     transform-origin: bottom right;
-  }
+}
   
 .nav-link:hover::before {
     transform: scaleX(1);
@@ -64,7 +63,7 @@ body {
     transition: transform .3s ease;
 }
 
-.contact-button{
+.contact-button {
     border: 1px solid black;
     border-radius: 0.813rem;
     background-color: transparent;
@@ -73,23 +72,21 @@ body {
     transition: 1s;
     margin-top: -7px;
 }
-.contact-button:hover{
+.contact-button:hover {
     background-color: #F1C65E;
 }
 
-
-
-.MainText, .MainParagraf{
+.MainText, .MainParagraf {
     width: 38.1rem;
 }
-.MainText{
+.MainText {
     font-size: 3.75rem;
 }
-maiMainParagraf{
+.MainParagraf {
     color: #000;
     font-size: 1.25rem;
 }
-.main-button{
+.main-button {
     width: 17.2rem;
     height: 4.3rem;
     border-radius: 14px;
@@ -100,68 +97,71 @@ maiMainParagraf{
     font-size: 1.2rem;
     transition: 0.4s;
 }
-.main-button:hover{
+.main-button:hover {
     box-shadow: 0px 5px 0px #F1C65E;
 }
-.main{
+
+.main {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.qsy{
+
+.qsy {
     justify-content: center;
     align-items: center;
-    width:70%;
+    width: 70%;
     padding: 10px;
 }
-.contenedorVideoMain{
+
+.contenedorVideoMain {
     width: auto;
 }
-.brandsShow{
+.brandsShow {
     margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.brand1{
+.brand1 {
     margin-right: 90px;
 }
-.remarcado{
+.remarcado {
     background-color: #F1C65E;
     padding: 2px;
 }
-.remarcado1{
+.remarcado1 {
     background-color: #F1C65E;
     padding: 5px;
     border-radius: 10px;
 }
-.remarcado2{
+.remarcado2 {
     background-color: #ffffff;
     padding: 5px;
     border-radius: 10px;
 }
-.texto span{
+.texto span {
     color: #000;
     font-size: 40px;
     font-weight: 500;
 }
-.texto{
+.texto {
     display: flex;
     align-items: center;
     margin-bottom: 3rem;
 }
-.texto p{
+.texto p {
     margin-top: 10px;
     margin-left: 20px;
 }
-.contenedorServicios{
+.contenedorServicios {
     width: 80%;
 }
-.services{
-    margin-top: 10rem;;
+.services {
+    margin-top: 10rem;
 }
 
-.tarjetaServices{
+.tarjetaServices {
     padding: 20px;
     width: 39rem;
     height: 20rem;
@@ -170,24 +170,25 @@ maiMainParagraf{
     box-shadow: 0px 5px 0px 0px #191A23;
     margin-bottom: 2.5rem;
 }
-.gris{
+
+.gris {
     background-color: #F3F3F3;
 }
-.preto{
+.preto {
     background-color: #191A23;
 }
-.amarillo{
+.amarillo {
     background-color: #F1C65E;
 }
-.flecha-negra{
+.flecha-negra {
     color: #F1C65E;
     font-size: 20px;
 }
-.flecha-blanca{
+.flecha-blanca {
     color: #000;
     font-size: 20px;
 }
-.flecha-blanca-fondo{
+.flecha-blanca-fondo {
     background-color: white;
     width: 40px;
     height: 40px;
@@ -196,7 +197,7 @@ maiMainParagraf{
     align-items: center;
     border-radius: 50px;
 }
-.flecha-negra-fondo{
+.flecha-negra-fondo {
     background-color: #191A23;
     width: 40px;
     height: 40px;
@@ -205,60 +206,60 @@ maiMainParagraf{
     align-items: center;
     border-radius: 50px;
 }
-.textoC span{
+.textoC span {
     font-size: 1.9rem;
 }
-.textoC{
+.textoC {
     width: 65%;
 }
-.imagen{
+.imagen {
     width: 35%;
 }
-.imagen img{
+.imagen img {
     margin-top: 3rem;
     margin-left: -1rem;
 }
-.leermas{
+.leermas {
     margin-top: 8rem;
 }
-.textoC span{
+.textoC span {
     margin-top: 20rem;
 }
-.leermas .flecha-blanca-fondo{
+.leermas .flecha-blanca-fondo {
     margin-right: 10px;
     margin-top: -2px;
 }
-.leermas .flecha-negra-fondo{
+.leermas .flecha-negra-fondo {
     margin-right: 10px;
     margin-top: -2px;
 }
-.tarjetaServices .textoC{
+.tarjetaServices .textoC {
     margin-top: 1rem;
     margin-left: 0.5rem;
 }
 
-.contenedorComenzar{
+.contenedorComenzar {
     padding: 40px;
     width: 80%;
     background-color: #F3F3F3;
     height: 22rem;
     border-radius: 2.813rem;
 }
-.textoComenzar{
+.textoComenzar {
     width: 55%;
 }
-.imagenComenzar{
+.imagenComenzar {
     width: 45%;
 }
-.imagenComenzar img{
+.imagenComenzar img {
     margin-left: 5rem;
     margin-top: -1.5rem;
 }
-.h1Comenzar{
+.h1Comenzar {
     font-weight: 500;
     margin-bottom: 15px;
 }
-.botonComenzar{
+.botonComenzar {
     width: 18rem;
     height: 4.3rem;
     outline: none;
@@ -268,33 +269,34 @@ maiMainParagraf{
     border-radius: 15px;
     margin-top: 10px;
 }
-.middleComenzarLaborare{
+
+.middleComenzarLaborare {
     margin-top: 10rem;
 }
-.contenedor-elegirnos{
+.contenedor-elegirnos {
     width: 80%;
 }
-.contenedorPorque{
+.contenedorPorque {
     background-color: #191A23;
     border-radius: 2.813rem;
     color: white;
     padding: 60px;
 }
-.texto h5{
+.texto h5 {
     font-size: 1.125rem;
     font-weight: 400;
 }
-.col a{
+.col a {
     text-decoration: none;
     color: #F1C65E;
     margin-right: 10px;
     margin-bottom: 5px;
 }
-.elegirnos{
+.elegirnos {
     margin-top: 150px;
 }
 
-.process-cards{
+.process-cards {
     width: 100%;
     height: 10rem;
     padding: 40px 60px;
@@ -306,22 +308,20 @@ maiMainParagraf{
     border: 1px solid #191A23;
     box-shadow: 0px 5px 0px 0px #191A23;
     transition: 1s;
-
 }
-.textomain{
+.textomain {
     align-items: center;
     transition: 1s;
-
 }
-.textomain h1{
+.textomain h1 {
     font-size: 3.75rem;
     margin-right: 1rem;
 }
-.textomain h3{
+.textomain h3 {
     width: 10rem;
     font-size: 1.875rem;
 }
-.botonProceso{
+.botonProceso {
     position: relative;
     left: 55rem;
     display: flex;
@@ -334,17 +334,15 @@ maiMainParagraf{
     background-color: transparent;
     border-radius: 50px;
     transition: 1s;
-
-    
 }
-.botonProceso i{
+.botonProceso i {
     font-size: 2.5rem;
 }
-.selected{
+.selected {
     background-color: #F1C65E;
     height: 17.5rem;
 }
-.parrafoEscondido{
+.parrafoEscondido {
     font-size: 1.25rem;
     font-weight: 400;
     margin-top: 6rem;
@@ -352,35 +350,33 @@ maiMainParagraf{
     width: 100%;
     transition: 1s;
     border-top: 1px solid #191A23;
-
 }
-.parrafoEscondido p{
+.parrafoEscondido p {
     margin-top: 1rem;
 }
-.acomodarTextoProceso{
+.acomodarTextoProceso {
     position: relative;
     top: -3rem;
     transition: 1s;
 }
-.proceso{
+.proceso {
     margin-top: 150px;
 }
 
-.contenedorcontacto{
+.contenedorcontacto {
     width: 80%;
 }
-.contact{
+.contact {
     margin-top: 150px;
 }
 
-.contPrinForm{
+.contPrinForm {
     height: 48.313rem;
     width: 100%;
     background-color: #F3F3F3;
     border-radius: 45px;
     padding: 60px 100px 80px 100px;
     overflow: hidden;
-
 }
 .ruedaImgContact {
     position: relative;
@@ -395,42 +391,42 @@ maiMainParagraf{
     align-items: center;
 }
 
-.imgContactEstrellas{
+.imgContactEstrellas {
     position: relative;
     z-index: 6;
     right: -52rem;
     bottom: 35.5rem;
     animation: bounce 2s infinite linear;
 }
-.comenzarSectionImg{
+.comenzarSectionImg {
     animation: bounce 5s infinite linear;
 }
-.formularioContacto{
+.formularioContacto {
     flex-direction: column;
     z-index: 10;
 }
-.formularioContacto input, textarea{
+.formularioContacto input, textarea {
     width: 34.75rem;
     outline: none;
     padding: 18px 30px;
     border-radius: 14px;
     border: 1px solid #000;
 }
-.formularioContacto input{
+.formularioContacto input {
     height: 3.75rem;
     margin-bottom: 0.5rem;
 }
-.formularioContacto textarea{
+.formularioContacto textarea {
     height: 11.875rem;
     resize: none;
 }
-.form{
+.form {
     width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.botonSub{
+.botonSub {
     margin-top: 2.5rem;
     border: 0px solid;
     border-radius: 14px;
@@ -438,10 +434,10 @@ maiMainParagraf{
     color: white;
     transition: 1s;
 }
-.botonSub:hover{
+.botonSub:hover {
     box-shadow: 0px 5px 0px #F1C65E;
 }
-.selectTypeOfSend{
+.selectTypeOfSend {
     display: flex;
     align-items: center;
     margin-bottom: 2rem;
@@ -456,14 +452,13 @@ maiMainParagraf{
     cursor: pointer;
     position: relative;
 }
-.selectTypeOfSend h4{
+.selectTypeOfSend h4 {
     margin-top: 0.3rem;
     margin-left: 1rem;
     margin-right: 1rem;
     font-size: 1.125rem;
     font-weight: 400;
 }
-
 
 .selectTypeOfSend input:checked::before {
     content: "";
@@ -477,7 +472,8 @@ maiMainParagraf{
     border-radius: 50%;
     transition: 0.5s;
 }
-.creditos{
+
+.creditos {
     font-size: 0.8rem;
     text-decoration: none;
 }
@@ -495,283 +491,79 @@ maiMainParagraf{
         transform: translateY(0);
         animation-timing-function: ease-in;
     }
-    25% {
-        transform: translateY(-10px);
-        animation-timing-function: ease-out;
-    }
     50% {
         transform: translateY(-20px);
         animation-timing-function: ease-in-out;
     }
-    75% {
-        transform: translateY(-10px);
-        animation-timing-function: ease-in;
-    }
 }
 
+/* MEDIA QUERIES */
 /* Para pantallas mayores a 1200px */
 @media (min-width: 1200px) {
-    .navbar, .qsy, .contenedorServicios, .contenedorcontacto, .contenedor-elegirnos {
-      width: 80%;
-    }
+
+}
   
-    .MainText {
-      font-size: 3.75rem;
-    }
+/* Para pantallas menores a 1200px */
+@media (max-width: 1200px) {
+
+}
   
-    .MainParagraf {
-      font-size: 1.25rem;
-    }
-  }
+/* Para pantallas menores a 992px (tablets en vertical) */
+@media (max-width: 992px) {
+
+}
   
-  /* Para pantallas menores a 1200px */
-  @media (max-width: 1200px) {
-    .navbar, .qsy, .contenedorServicios, .contenedorcontacto, .contenedor-elegirnos {
-      width: 90%;
+/* Para pantallas menores a 768px (teléfonos grandes y tablets pequeñas) */
+@media (max-width: 768px) {
+
+}
+
+/* Para pantallas menores a 576px (teléfonos pequeños) */
+@media (max-width: 576px) {
+    .imgMain{
+        display: none;
     }
-  
-    .MainText {
-      font-size: 3rem;
+    .MainText{
+        text-align: center;
     }
-  
-    .MainParagraf {
-      font-size: 1.1rem;
+    .MainParagraf{
+        text-align: center;
     }
-  
-    .tarjetaServices {
-      width: 35rem;
-      height: auto;
+    .main-button{
+        justify-content: center;
+        align-items: center;
     }
-  
-    .contenedorTextoMain, .contenedorVideoMain {
-      flex: 1 1 50%;
+    .qsy, .main{
+        justify-content: center;
+        align-items: center;
     }
-  }
-  
-  /* Para pantallas menores a 992px (tablets en vertical) */
-  @media (max-width: 992px) {
-    .navbar {
-      width: 100%;
+    .botonProceso{
+        margin-left: -54rem;
     }
-  
-    .MainText {
-      font-size: 2.5rem;
+    .comenzarSectionImg{
+        display: none;
     }
-  
-    .MainParagraf {
-      font-size: 1rem;
+    .contenedorComenzar{
+        width: 40rem;
     }
-  
-    .qsy {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
+    .middleComenzarLaborare{
+        justify-content: center;
+        align-items: center;
+        width: 70vh;
     }
-  
-    .contenedorTextoMain, .contenedorVideoMain {
-      width: 100%;
-      padding: 0 20px;
+    .textoComenzar{
+        width: 300vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-  
-    .contenedorServicios, .contenedorcontacto, .contenedor-elegirnos {
-      width: 100%;
+    .textoComenzar p{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
     }
-  
-    .tarjetaServices {
-      width: 100%;
-      margin-bottom: 1.5rem;
+    .h1Comenzar{
+        margin: 0px;
     }
-  
-    .process-cards {
-      padding: 30px 20px;
-      flex-direction: column;
-      width: 100%;
-      text-align: center;
-    }
-  
-    .textomain h1 {
-      font-size: 3rem;
-    }
-  
-    .textomain h3 {
-      width: 100%;
-      font-size: 1.5rem;
-    }
-  
-    .botonProceso {
-      left: auto;
-      margin-top: 20px;
-    }
-  
-    .imagen {
-      width: 100%;
-      text-align: center;
-    }
-  
-    .imagen img {
-      margin-left: 0;
-      width: 100%;
-      height: auto;
-    }
-  }
-  
-  /* Para pantallas menores a 768px (teléfonos grandes y tablets pequeñas) */
-  @media (max-width: 768px) {
-    .navbar {
-      flex-direction: column;
-    }
-  
-    .contenedorNav {
-      width: 100%;
-    }
-  
-    .navbar-collapse {
-      text-align: center;
-    }
-  
-    .nav-item {
-      margin-bottom: 10px;
-    }
-  
-    .MainText {
-      font-size: 2rem;
-    }
-  
-    .contenedorTextoMain, .contenedorVideoMain {
-      width: 100%;
-    }
-  
-    .imgMain {
-      width: 100%;
-      height: auto;
-    }
-  
-    .gridCards .row {
-      justify-content: center;
-    }
-  
-    .tarjetaServices {
-      width: 100%;
-      margin-bottom: 1.5rem;
-    }
-  
-    .textoC span {
-      font-size: 1.5rem;
-    }
-  
-    .textoC {
-      margin-left: 0;
-      text-align: center;
-    }
-  
-    .imagen {
-      width: 100%;
-      text-align: center;
-    }
-  
-    .imagen img {
-      margin-left: 0;
-      width: 100%;
-      height: auto;
-    }
-  
-    .leermas h3 {
-      font-size: 1.2rem;
-    }
-  
-    /* Ajustes para las tarjetas del proceso */
-    .process-cards {
-      width: 100%;
-      margin-bottom: 1rem;
-      padding: 20px;
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .textomain {
-      justify-content: center;
-      text-align: center;
-    }
-  
-    .botonProceso {
-      position: static;
-      margin-top: 10px;
-    }
-  }
-  
-  /* Para pantallas menores a 576px (teléfonos pequeños) */
-  @media (max-width: 576px) {
-    .navbar-collapse {
-      flex-direction: column;
-    }
-  
-    .nav-link {
-      margin-right: 0;
-      margin-bottom: 10px;
-    }
-  
-    .MainText {
-      font-size: 1.75rem;
-    }
-  
-    .MainParagraf {
-      font-size: 0.9rem;
-    }
-  
-    .contenedorTextoMain, .contenedorVideoMain {
-      width: 100%;
-    }
-  
-    .imgMain {
-      width: 100%;
-      height: auto;
-    }
-  
-    .gridCards .row {
-      justify-content: center;
-    }
-  
-    .tarjetaServices {
-      padding: 15px;
-      width: 100%;
-      height: auto;
-    }
-  
-    .process-cards {
-      padding: 20px;
-      width: 100%;
-      text-align: center;
-    }
-  
-    .botonProceso {
-      width: 50px;
-      height: 50px;
-    }
-  
-    .botonProceso i {
-      font-size: 2rem;
-    }
-  
-    .contenedorNav {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .contenedorComenzar {
-      padding: 20px;
-      height: auto;
-    }
-  
-    .formularioContacto input, textarea {
-      width: 100%;
-    }
-  
-    .form {
-      width: 100%;
-    }
-  
-    .botonSub {
-      width: 100%;
-    }
-  }
-  
+}
