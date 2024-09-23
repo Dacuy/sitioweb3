@@ -538,7 +538,7 @@ body {
         align-items: center;
     }
     .botonProceso{
-        margin-left: -54rem;
+        margin-left: -41rem;
     }
     .comenzarSectionImg{
         display: none;
@@ -549,10 +549,11 @@ body {
     .middleComenzarLaborare{
         justify-content: center;
         align-items: center;
-        width: 70vh;
+        width: 72vh;
+        margin-top: 4rem;
     }
     .textoComenzar{
-        width: 300vh;
+        width: 500vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -565,5 +566,15 @@ body {
     }
     .h1Comenzar{
         margin: 0px;
+    }
+    .contenedorPorque{
+        width: 63.5vh;
+    }
+    .proceso{
+        width: 65vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2.5rem;
     }
 }
