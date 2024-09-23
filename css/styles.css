@@ -577,4 +577,16 @@ body {
         align-items: center;
         margin-left: 2.5rem;
     }
+    .contPrinForm{
+        width: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .imagenContact{
+        display: none;
+    }
+    .formularioContacto{
+        margin-left: -9.5rem;
+    }
 }
