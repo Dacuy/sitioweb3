@@ -517,6 +517,39 @@ body {
 @media (max-width: 768px) {
 
 }
+@media (max-width: 400px) {
+    .contenedorComenzar{
+        width: 80%;
+        margin-left: 2.5rem;
+    }
+    .middleComenzarLaborare{
+        width: 100%;
+    }
+    .process-cards{
+        width: 630px;
+    }
+    .parrafoEscondido{
+        margin-top: 7.5rem;
+        margin-left: 0.2rem;
+    }
+    .form{
+        width: auto;
+        margin-left: 9rem;
+    }
+    .selectTypeOfSend{
+        margin-right: 3rem;
+    }
+    .contPrinForm{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 630px !important;
+    }
+    footer{
+        width: 87vh;
+    }
+}
+
 
 /* Para pantallas menores a 576px (teléfonos pequeños) */
 @media (max-width: 576px) {
