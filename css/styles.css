@@ -548,6 +548,15 @@ body {
     footer{
         width: 87vh;
     }
+    .contenedorBrands{
+        width: 80%;
+    }
+    .brand6{
+        display: none;
+    }
+    .main-button{
+        margin-left: 10rem;
+    }
 }
 
 
